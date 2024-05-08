@@ -21,23 +21,8 @@ namespace Technical_Interview_Exercises
 
         public static int maxSubArraySum(int[] arr)
         {
-            int max_arr = int.MinValue, max_ending_here = 0;
 
-            for (int i = 0; i < arr.Length; i++)
-            {
-                max_ending_here = max_ending_here + arr[i];
-
-                if (max_arr < max_ending_here)
-                {
-                    max_arr = max_ending_here;
-                }
-                if (max_ending_here < 0)
-                {
-                    max_ending_here = 0;
-                }
-            }
-
-            return max_arr;
+            return 0;
         }
 
     }

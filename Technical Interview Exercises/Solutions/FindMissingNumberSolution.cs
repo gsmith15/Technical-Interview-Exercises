@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Technical_Interview_Exercises
 {
-    public class FindMissingNumber
+    public class FindMissingNumberSolution
     {
         /*
         Given an array arr[] of size N-1 with integers in the range of[1, N], 
@@ -24,8 +24,25 @@ namespace Technical_Interview_Exercises
 
         public static int missingNumber(int[] arr, int N)
         {
+            int[] temp = new int[N + 1];
+
+            for(int i = 0; i < N-1; i++) 
+            {
+                temp[arr[i] - 1] = 1;
             
-            return 0;
+            }
+
+            int missingNum = 0;
+
+            for(int i = 0; i <=N; i++) 
+            {
+                if (temp[i] == 0)
+                {
+                    missingNum = i + 1;
+                }
+            }
+
+            return missingNum;
         }
 
 
