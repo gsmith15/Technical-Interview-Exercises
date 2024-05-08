@@ -22,7 +22,7 @@ namespace Technical_Interview_Exercises
         */
 
 
-        public static int missingNumber(int[] arr, int N)
+        public static int MissingNumber(int[] arr, int N)
         {
             
             return 0;

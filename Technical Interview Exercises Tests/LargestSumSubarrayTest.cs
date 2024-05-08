@@ -10,7 +10,7 @@ namespace Technical_Interview_Exercises_Tests
         {
             int[] ints = { -2, 9, 4, -1, 0, 1, 5, -3 };
 
-            int result = LargestSumSubarray.maxSubArraySum(ints);
+            int result = LargestSumSubarray.MaxSubArraySum(ints);
 
             Assert.AreEqual(18, result);
 

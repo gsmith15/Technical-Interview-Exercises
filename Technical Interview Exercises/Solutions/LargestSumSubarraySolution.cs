@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Technical_Interview_Exercises
 {
-    public class Largest_Sum_Subarray_Solution
+    public class LargestSumSubarraySolution
     {
         /*Largest Sum Contiguous Subarray
         Given an array arr[] of size N, find the sum of the contiguous subarray within an arr[] with the largest sum. 
@@ -19,7 +19,7 @@ namespace Technical_Interview_Exercises
         has the largest sum 7.
         */
 
-        public static int maxSubArraySum(int[] arr)
+        public static int MaxSubArraySum(int[] arr)
         {
             int max_arr = int.MinValue, max_ending_here = 0;
 

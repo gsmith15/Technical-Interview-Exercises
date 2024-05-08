@@ -20,9 +20,7 @@ namespace Technical_Interview_Exercises
         Explanation: Here the size of the array is 8, so the range will be[1, 8]. 
         The missing number between 1 to 8 is 5
         */
-
-
-        public static int missingNumber(int[] arr, int N)
+        public static int MissingNumber(int[] arr, int N)
         {
             int[] temp = new int[N + 1];
 
@@ -44,11 +42,6 @@ namespace Technical_Interview_Exercises
 
             return missingNum;
         }
-
-
-
-
-
 
     }
 }

@@ -19,7 +19,7 @@ namespace Technical_Interview_Exercises
         has the largest sum 7.
         */
 
-        public static int maxSubArraySum(int[] arr)
+        public static int MaxSubArraySum(int[] arr)
         {
 
             return 0;

@@ -11,7 +11,7 @@ namespace Technical_Interview_Exercises_Tests
             int[] ints = { 1, 2, 7, 5, 3, 4 };
             int n = ints.Length;
 
-            int result = FindMissingNumber.missingNumber(ints, n);
+            int result = FindMissingNumber.MissingNumber(ints, n);
 
             Assert.AreEqual(6, result);
 
